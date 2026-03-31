@@ -102,11 +102,11 @@
           </material>
         </visual>
         <visual name="target_contact_marker">
-          <!-- Thin red disk on the near wall face: diameter 150 mm, center at world z=1.5 m. -->
-          <pose>-0.101 0 -0.75 0 1.57079632679 0</pose>
+          <!-- Thin red disk on the near wall face: diameter 300 mm, center at world z=1.35 m. -->
+          <pose>-0.101 0 -0.90 0 1.57079632679 0</pose>
           <geometry>
             <cylinder>
-              <radius>0.075</radius>
+              <radius>0.15</radius>
               <length>0.002</length>
             </cylinder>
           </geometry>
